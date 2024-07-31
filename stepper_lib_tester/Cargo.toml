@@ -1,0 +1,11 @@
+[package]
+name = "stepper_lib_tester"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "stepper_lib"
+path = "src/lib.rs"
+
+[dependencies]
+rppal = "0.18.0"
