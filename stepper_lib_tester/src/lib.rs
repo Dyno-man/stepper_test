@@ -61,7 +61,7 @@ pub mod stepper_rotate {
                     }
                 }
                 if self.direction {
-                    motor_step_counter = (motor_step_counter - 1) % 8;
+                    motor_step_counter = (motor_step_counter + 7) % 8;
                 } else {
                     motor_step_counter = (motor_step_counter + 1) % 8;
                 }
